@@ -1,0 +1,51 @@
+[
+  {
+    "typeProjet": "web",
+    "titreProjet": "Site Web Alternator",
+    "imageProjet": "alternator",
+    "descProjet": "Site Web promotionnel pour le jeu fictif Alternator créé en lien avec le Jour de la Terre.",
+    "lienProjet": "https://alternator.netlify.app/"
+  },
+  {
+    "typeProjet": "web",
+    "titreProjet": "Maquettes Thai-ya",
+    "imageProjet": "maquette-thaiya",
+    "descProjet": "Maquettes version tablette pour la refonte fictive du site Web du restaurant Thai-ya à Terrebonne.",
+    "lienProjet": "https://xd.adobe.com/view/a37db968-4f2e-4b43-4f2b-407a0253b1db-d54c/"
+  },
+  {
+    "typeProjet": "web",
+    "titreProjet": "Maquette Accueil: TIM à Maisonneuve",
+    "imageProjet": "maquetteA-timaMaisonneuve",
+    "descProjet": "Maquette de la page Accueil du site Web TIM à Maisoneuve, servant à présenter le programme d'étude.",
+    "lienProjet": "https://www.figma.com/proto/lS87aI9CMhMDxqwt3AjRVb/TIM-%C3%A0-Maisonneuve?scaling=min-zoom&node-id=1%3A88"
+  },
+  {
+    "typeProjet": "web",
+    "titreProjet": "Site Web Chronoshift",
+    "imageProjet": "site-chronoshift",
+    "descProjet": "Site Web promotionnel du jeu Chronoshift.",
+    "lienProjet": "https://chronoshift-jeu.netlify.app"
+  },
+  {
+    "typeProjet": "jeu",
+    "titreProjet": "Jeu Chronoshift",
+    "imageProjet": "jeu-chronoshift",
+    "descProjet": "Jeu vidéo Chronoshift. Dans ce projet, j'ai participé à la création des éléments d'interfaces, à l'assemblage et à la programmation de certains éléments du jeu, tout en étant chargée de projet.",
+    "lienProjet": "https://chronoshift-webgl.netlify.app"
+  },
+  {
+    "typeProjet": "jeu",
+    "titreProjet": "Jeu mobile Manabu",
+    "imageProjet": "manabu",
+    "descProjet": "Jeu mobile ou le but est d'apprendre les systèmes d'écritures japonaises. Dans ce projet, j'ai été en charge des éléments créatifs.",
+    "lienProjet": "https://manabu-jeu.netlify.app"
+  },
+  {
+    "typeProjet": "jeu",
+    "titreProjet": "Puppet Master",
+    "imageProjet": "puppetMaster",
+    "descProjet": "Jeu vidéo créé lors de la 5ème édition de l'Intercollégial de Création de Jeux Vidéo de Valleyfield. Dans ce projet, j'ai été en charge principalement de la création et de la programmation des éléments d'interfaces.",
+    "lienProjet": "https://csharkspuppetmaster.netlify.app/"
+  }
+]

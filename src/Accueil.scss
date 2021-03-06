@@ -1,0 +1,18 @@
+@import './Variables.scss';
+
+.Accueil {
+  height: 100vh;
+
+  h1 {
+    font-size: 5em;
+    padding-top: 15%;
+    padding-right: 5%;
+    text-align: right;
+
+    & span {
+      color: $accent;
+    }
+  }
+
+ 
+}

@@ -1,0 +1,60 @@
+@import './Variables.scss';
+
+.Appli {
+  position: absolute;
+  width: 100%;
+  background-color: $primaire;
+  font-family: $typoTexte;
+  color: $couleur-textes;
+  padding: 1%;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $typoTitre;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 96px;
+    letter-spacing: -1.5px;
+  }
+
+  h2 {
+    font-size: 60px;
+    letter-spacing: -0.5px;
+  }
+
+  h3 {
+    font-size: 48px;
+    letter-spacing: 0px;
+  }
+
+  h4 {
+    font-size: 34px;
+    letter-spacing: 0.25px;
+  }
+
+  h5 {
+    font-size: 24px;
+    letter-spacing: 0px;
+  }
+
+  h6 {
+    font-size: 20px;
+    letter-spacing: 0.15px;
+  }
+
+  .Entete {
+    float: left;
+    width: 40%;
+  }
+
+  .contenu-principal {
+    float: right;
+    width: 60%;
+  }
+}

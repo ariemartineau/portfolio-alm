@@ -1,0 +1,48 @@
+@import './Variables.scss';
+
+.Entete {
+  position: fixed;
+  height: 100vh;
+
+  .navPrincipale {
+    list-style: none;
+    font-family: $typoTitre;
+    font-size: 3em;
+    padding: 0;
+    margin: 2% 0;
+
+    li a {
+      color: $couleur-textes;
+      text-decoration: none;
+      -webkit-transition: font-size .5s ease, color .5s ease;
+      -moz-transition: font-size .5s ease, color .5s ease;
+      -o-transition: font-size .5s ease, color .5s ease;
+      transition: font-size .5s ease, color .5s ease;
+
+      &:hover {
+        color: $accent;
+        font-size: 1.2em;
+      }
+
+      &.active {
+        color: $accent-clair;
+        font-size: 1.1em;
+      }
+    }
+  }
+
+  .navUtil {
+    position: absolute;
+    padding: 0;
+    bottom: 0;
+    left: 0;
+
+    .btnContacts {
+      color: $couleur-textes;
+    
+      &:hover {
+        color: $accent;
+      }
+    }
+  }
+}

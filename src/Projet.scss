@@ -1,0 +1,19 @@
+@import './Variables.scss';
+
+.Projet {
+  width: 300px;
+  margin: 10px;
+  padding: 5px;
+  overflow: hidden;
+
+  .couverture {
+    .image {
+      width: 100%;
+      height: 194px;
+    }
+  }
+
+  .lienProjet {
+    color: $accent-fonce;
+  }
+}
