@@ -2,17 +2,46 @@
 
 .Accueil {
   height: 100vh;
+  margin-left: 3%;
 
   h1 {
     font-size: 5em;
-    padding-top: 15%;
-    padding-right: 5%;
-    text-align: right;
+    padding-top: 10%;
+    margin-bottom: 1%;
 
-    & span {
+    span {
       color: $accent;
     }
   }
 
- 
+  .desc {
+    margin-top: 5%;
+    display: flex;
+    align-items: baseline;
+
+    p {
+      width: 40%;
+      font-size: 1.2em;
+      span {
+        color: $accent;
+      }
+      span:first-child {
+        font-size: 1.3em;
+      }
+    }
+
+    p:last-child {
+      margin-left: 5%;
+      display: flex;
+      align-items: baseline;
+
+      ul {
+        list-style: none;
+
+        li {
+          padding-bottom: 2%;
+        }
+      }
+    }
+  }
 }

@@ -6,6 +6,7 @@ import './ListeProjets.scss';
 export default function ListeProjetsJeu() {
   return(
     <div className="ListeProjets"  id="ProjetsJeu">
+    <h2>Mes projets Jeu</h2>
       <ul>
         {
           tabProjets.filter(projet => projet.typeProjet == "jeu").map( 

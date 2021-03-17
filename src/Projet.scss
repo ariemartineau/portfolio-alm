@@ -2,9 +2,13 @@
 
 .Projet {
   width: 300px;
+  height: 350px;
   margin: 10px;
-  padding: 5px;
-  overflow: hidden;
+  background-color: $secondaire;
+
+  &:hover{
+    cursor: pointer;
+  } 
 
   .couverture {
     .image {
@@ -13,7 +17,36 @@
     }
   }
 
-  .lienProjet {
-    color: $accent-fonce;
+  .descProjet {
+    width: 90%;
+    height: 100%;
+    margin: 2%;
+
+    button {
+      background-color: $secondaire;
+      color: $accent;
+      border: $secondaire 3px solid;
+      padding: 2%;
+      font-family: $typoTexte;
+      font-size: 1.1em;
+
+      &::after {
+        display: block;
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: $accent;
+        transition: width 0.3s ease-in;
+      }
+
+      &:hover::after {
+        width: 100%;
+        color: $accent;
+      }
+    
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
 }

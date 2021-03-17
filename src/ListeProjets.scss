@@ -1,5 +1,6 @@
 .ListeProjets{
   margin: 40px;
+  height: 90vh;
 
   ul {
       margin: 0;
@@ -9,5 +10,9 @@
       display: flex;
       flex-flow: row wrap;
       justify-content: flex-start;
+  }
+
+  h2 {
+    padding-top: 10%;
   }
 }

@@ -6,6 +6,7 @@ import './ListeProjets.scss';
 export default function ListeProjetsWeb() {
   return(
     <div className="ListeProjets"  id="ProjetsWeb">
+      <h2>Mes projets Web</h2>
       <ul>
         {
           tabProjets.filter(projet => projet.typeProjet == "web").map( 
