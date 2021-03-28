@@ -5,6 +5,7 @@ import Accueil from './Accueil';
 import ListeProjetsWeb from './ListeProjetsWeb';
 import ListeProjetsJeu from './ListeProjetsJeu';
 import { ArrowUpward } from '@material-ui/icons';
+import DescProjet from './DescProjet';
 
 export default function Appli() {
   return (
@@ -12,6 +13,7 @@ export default function Appli() {
       <Navigations className="Navigations"/>
         <section className="contenu-principal">
           <Accueil/>
+          <DescProjet/>
           <ListeProjetsWeb/>
           <ListeProjetsJeu/>
         </section>
@@ -46,6 +48,7 @@ window.addEventListener('scroll', event => {
 
   liensNav.forEach(lien => {
     let section = document.querySelector(lien.hash);
+    
     if (section.offsetTop <= fromTop && section.offsetTop + section.offsetHeight > fromTop) {
       lien.classList.add('active');
     }

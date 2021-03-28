@@ -1,0 +1,156 @@
+@import './Variables.scss';
+
+.DescProjet {
+  position: fixed;
+  z-index: 10;
+  top: 130px;
+  left: 25%;
+  opacity: 0;
+  margin: 0 auto;
+  z-index: 5;
+  width: 50%;
+  background-color: $secondaire;
+  transition: all 0.2s ease-in;
+  transform: translateY(100vh);
+
+  div:not(:first-child){
+    margin: 3% 2%;
+  }
+
+  .conteneurImg {
+    .btnFermeLightbox {
+      position: absolute;
+      right: 0;
+      z-index: 11;
+      background-color: #ffffff00;
+      border: none;
+  
+      .iconeFermeLightbox {
+        color: #ffffff;
+        font-size: 3.5em;
+        transition: color 0.2s ease-in;
+  
+        &:hover {
+          color: $accent;
+        }
+      }
+    }
+    
+    img {
+      position: relative;
+      width: 100%;
+    }
+  }
+
+  h4 {
+    margin: 0 2%;
+  }
+
+  .divTaches *, .divTechnos * {
+    display: inline;
+  }
+
+  span {
+    text-decoration: underline;
+    font-size: 1.2em;
+  }
+
+  .btnVoirProjet {
+    background-color: $secondaire;
+    color: $accent;
+    border: $secondaire 3px solid;
+    padding: 2%;
+    font-family: $typoTexte;
+    font-size: 1.5em;
+
+    &::after {
+      display: block;
+      content: '';
+      width: 0%;
+      height: 2px;
+      background: $accent;
+      transition: width 0.3s ease-in;
+    }
+
+    &:hover::after {
+      width: 100%;
+      color: $accent;
+    }
+  
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &.lightboxActive {
+    opacity: 1;
+    display: block;
+    transform: translateY(0);
+  }
+}
+
+// Tablettes
+@media screen and (max-width: #{$screen-md-max}) {
+  .DescProjet {
+    width: 90%;
+    left: 5%;
+    top: 80px;
+
+    .conteneurImg {
+      .btnFermeLightbox {
+        .iconeFermeLightbox {
+          font-size: 7em;
+        }
+      }
+    }
+
+    h4 {
+      font-size: 3em;
+    }
+
+    div {
+      font-size: 1.5em;
+    }
+  
+    span {
+      font-size: 1.2em;
+    }
+
+    .btnVoirProjet {
+      font-size: 2em;
+    }
+  }
+}
+
+// Mobiles
+@media screen and (max-width: #{$screen-sm-max}) {
+  .DescProjet {
+    width: 90%;
+    left: 5%;
+    top: 50px;
+
+    .conteneurImg {
+      .btnFermeLightbox {
+        .iconeFermeLightbox {
+          font-size: 5em;
+        }
+      }
+    }
+
+    h4 {
+      font-size: 2em;
+    }
+
+    div {
+      font-size: 1.2em;
+    }
+  
+    span {
+      font-size: 1.2em;
+    }
+
+    .btnVoirProjet {
+      font-size: 1.5em;
+    }
+  }
+}

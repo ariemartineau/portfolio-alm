@@ -3,6 +3,7 @@
 .Accueil {
   height: 100vh;
   margin-left: 3%;
+  margin-right: 3%;
 
   h1 {
     font-size: 5em;
@@ -19,7 +20,7 @@
     display: flex;
     align-items: baseline;
 
-    p {
+    p, div {
       width: 40%;
       font-size: 1.2em;
       span {
@@ -30,7 +31,7 @@
       }
     }
 
-    p:last-child {
+    div {
       margin-left: 5%;
       display: flex;
       align-items: baseline;
@@ -41,6 +42,53 @@
         li {
           padding-bottom: 2%;
         }
+      }
+    }
+  }
+}
+
+// Tablettes
+@media screen and (max-width: #{$screen-md-max}) {
+  .Accueil {
+    .desc {
+      flex-direction: column;
+
+      p {
+        width: 100%;
+        font-size: 24px;
+      }
+
+      div {
+        margin: 0;
+      }
+    }
+  }
+}
+
+// Cellulaires
+@media screen and (max-width: #{$screen-sm-max}) {
+  .Accueil {
+    margin-bottom: 100px;
+
+    h1 {
+      padding-top: 15%;
+      font-size: 3em;
+    }
+
+    h4 {
+      font-size: 2em;
+    }
+
+    .desc {
+      flex-direction: column;
+
+      p {
+        width: 100%;
+        font-size: 16px;
+      }
+
+      div{
+        margin: 0;
       }
     }
   }

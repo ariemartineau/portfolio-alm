@@ -10,7 +10,7 @@ export default function ListeProjetsWeb() {
       <ul>
         {
           tabProjets.filter(projet => projet.typeProjet == "web").map( 
-            projet => <li><Projet key={projet} {...projet}/></li>
+            projet => <li key={projet.titreProjet}><Projet key={projet} {...projet}/></li>
           )
         }
       </ul>
