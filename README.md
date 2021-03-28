@@ -1,3 +1,3 @@
-# Titre du site Web ou application
+# Portfolio professionnel: Ariane Laferrière-Martineau
 
-Court texte présentant votre site Web/application.
+Création de mon portfolio professionnel en tant que Finissante en Techniques d'Intégration Multimédia au Collège de Maisonneuve.
