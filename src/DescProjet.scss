@@ -57,11 +57,15 @@
 
   .btnVoirProjet {
     background-color: $secondaire;
-    color: $accent;
     border: $secondaire 3px solid;
     padding: 2%;
     font-family: $typoTexte;
     font-size: 1.5em;
+
+    a {
+      color: $accent;
+      text-decoration: none;
+    }
 
     &::after {
       display: block;

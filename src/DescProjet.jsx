@@ -25,7 +25,7 @@ export default function DescProjet() {
       <div className="divTechnos">
         <span>Les technologies utilisées:</span><p id="technosLightbox"></p>
       </div>
-      <button className="btnVoirProjet" id="btnLightbox" href="" target="_blank">Voir le projet</button>
+      <button className="btnVoirProjet"><a id="btnLightbox" href="" target="_blank">Voir le projet</a></button>
     </div>
   );
 }
