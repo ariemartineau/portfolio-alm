@@ -37,3 +37,12 @@
     }
   }
 }
+
+// Cellulaires
+@media screen and (max-width: #{$screen-sm-max}) {
+  .ListeProjets {
+    ul {
+      justify-content: center;
+    }
+  }
+}

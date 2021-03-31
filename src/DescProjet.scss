@@ -93,6 +93,15 @@
   }
 }
 
+// Min: Grand Ecrans
+@media screen and (min-width: #{$screen-xl-min}) {
+  .DescProjet {
+    width: 40%;
+    left: 30%;
+    top: 80px;
+  }
+}
+
 // Tablettes
 @media screen and (max-width: #{$screen-md-max}) {
   .DescProjet {

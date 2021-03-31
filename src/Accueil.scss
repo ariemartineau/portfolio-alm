@@ -31,7 +31,7 @@
       }
     }
 
-    div {
+    div.listeAime {
       margin-left: 5%;
       display: flex;
       align-items: baseline;
@@ -50,6 +50,8 @@
 // Tablettes
 @media screen and (max-width: #{$screen-md-max}) {
   .Accueil {
+    height: 100%;
+
     .desc {
       flex-direction: column;
 
@@ -58,8 +60,9 @@
         font-size: 24px;
       }
 
-      div {
+      div.listeAime {
         margin: 0;
+        width: 100%;
       }
     }
   }
@@ -68,7 +71,7 @@
 // Cellulaires
 @media screen and (max-width: #{$screen-sm-max}) {
   .Accueil {
-    margin-bottom: 100px;
+    height: 100%;
 
     h1 {
       padding-top: 15%;
@@ -85,10 +88,15 @@
       p {
         width: 100%;
         font-size: 16px;
+
+        span:first-child {
+          font-size: 1.5em;
+        }
       }
 
-      div{
+      div.listeAime{
         margin: 0;
+        width: 100%;
       }
     }
   }
